@@ -1,0 +1,1 @@
+import matplotlib.pyplot as pltimport numpy as npx=input('enter seq1 x')h=input('enter seq2 h')n=len(x)h1=np.zeros(len(h))i=0while(i<n):	h1[i]=h[n-1]	i=i+1	n=n-1	print(h1[i])#y=np.convolve(x,h1)#print(y)		

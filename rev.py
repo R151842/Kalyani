@@ -1,0 +1,1 @@
+import matplotlib.pyplot as pltimport numpy as npdef time_revesalx1=input('enter seq1')lx1=len(x)y1=[]for n in range(0,lx1):	y1=np.append(y1,x[lx1-n-1])print(y1)x=input('enter seq1')#h=input('enter seq2=')lx=len(x)#lh=len(h)y=[]for n in range(lx+lx1-1):	s=0	for k in range(lx):		if (n-k<lh and n-k>=0):			s=s+x[k]*h[n-k]	y=np.append(y,s)print(y)
